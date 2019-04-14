@@ -1,0 +1,6 @@
+modules:
+  - name: main
+    file: main.js
+  - name: app
+    file: app.wasm
+    binary: true
