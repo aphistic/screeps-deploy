@@ -4,6 +4,6 @@ workflow "Upload to Screeps" {
 }
 
 action "Deploy branch" {
-  uses = "aphistic/screeps-deployer@f7085f0b2aee1a118f3778338b22cb3707afce3e"
+  uses = "aphistic/screeps-deployer@5601934334cf63f69eed9f0f33de2aa3c5d063ea"
   secrets = ["SCREEPS_TOKEN"]
 }
